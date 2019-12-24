@@ -8,3 +8,9 @@ This includes recompiling the kernel.
 
 The code and makefile for the system calls are included in SystemCalls
 The code for the modules, the elevator code, and the makefile are included in SyscallModule
+
+
+The elevator works by using system calls to add "people" to a floor. The elevator travels between floors , 1-10, picking up people and taking them to their destination floor.
+
+This does not include a program to test the module.
+To test it, create a simple program that starts the elevator with start_elevator() systemcall.
